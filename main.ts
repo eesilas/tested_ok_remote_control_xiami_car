@@ -38,6 +38,14 @@ input.onButtonPressed(Button.A, function () {
         . . . . .
         `)
 })
+input.onButtonPressed(Button.AB, function () {
+    radio.sendNumber(7)
+    basic.showIcon(IconNames.Giraffe)
+})
+input.onButtonPressed(Button.B, function () {
+    radio.sendNumber(6)
+    basic.showIcon(IconNames.House)
+})
 input.onGesture(Gesture.TiltRight, function () {
     radio.sendNumber(2)
     basic.showLeds(`
