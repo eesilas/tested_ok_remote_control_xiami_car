@@ -1,5 +1,6 @@
 {
     "name": "tested_ok_remote_control_xiami_car",
+    "version": "0.0.1",
     "description": "",
     "dependencies": {
         "core": "*",
